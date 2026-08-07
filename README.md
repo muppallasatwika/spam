@@ -4,7 +4,7 @@ A complete Machine Learning project that classifies emails and SMS messages as *
 
 This project is built using **Python, Pandas, Scikit-learn, and Streamlit**, providing a clean, modern user interface for making predictions.
 
-## 🚀 Features
+## Features
 
 - Automatically downloads and processes the SMS Spam Collection dataset.
 - Cleans text data (lowercasing, punctuation removal, stopword removal).
@@ -12,7 +12,7 @@ This project is built using **Python, Pandas, Scikit-learn, and Streamlit**, pro
 - Trained using **Multinomial Naive Bayes** algorithm.
 - Modern, centered UI built with **Streamlit** featuring dynamic styling (Red for Spam, Green for Ham).
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 spam-email-classifier/
@@ -26,7 +26,7 @@ spam-email-classifier/
 └── README.md            # Project documentation
 ```
 
-## 🛠️ Installation Steps
+## Installation Steps
 
 1. **Clone or Download the repository.**
 2. **Navigate to the project directory** in your terminal:
@@ -38,7 +38,7 @@ spam-email-classifier/
    pip install -r requirements.txt
    ```
 
-## 🏃‍♂️ How to Run the Project
+##  How to Run the Project
 
 **Step 1: Train the Model**
 Run the training script to download the dataset, train the Naive Bayes model, and save `model.pkl` and `vectorizer.pkl`.
@@ -56,18 +56,19 @@ This will open a new tab in your default web browser where you can enter text an
 
 ## 📸 Screenshots
 
-### 🏠 Home Page
+### Home Page
 
 ![Home Page](screenshots/home.png.png)
 
 ---
 
-### ✅ Ham Prediction
+### Ham Prediction
 
 ![Ham Prediction](screenshots/ham.png.png)
 
 ---
 
-### 🚨 Spam Prediction
+### Spam Prediction
 
 ![Spam Prediction](screenshots/spam.png.png)
+
